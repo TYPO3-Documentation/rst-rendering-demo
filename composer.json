@@ -17,5 +17,8 @@
     "bin-dir": ".Build/bin",
     "sort-packages": true,
     "vendor-dir": ".Build/vendor"
+  },
+  "scripts": {
+    "render": ".Build/bin/guides Documentation output"
   }
 }
