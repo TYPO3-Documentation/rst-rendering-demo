@@ -1,0 +1,21 @@
+{
+  "name": "t3docs/rst-rendering-demo",
+  "license": "OPL-1.0",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.30",
+    "phpdocumentor/guides-cli": "dev-main@dev"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true
+    },
+    "bin-dir": ".Build/bin",
+    "sort-packages": true,
+    "vendor-dir": ".Build/vendor"
+  }
+}
