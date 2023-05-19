@@ -2,7 +2,8 @@
   "name": "t3docs/rst-rendering-demo",
   "license": "OPL-1.0",
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "phpdocumentor/guides-theme-bootstrap": "dev-main"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.30",
@@ -19,6 +20,6 @@
     "vendor-dir": ".Build/vendor"
   },
   "scripts": {
-    "render": ".Build/bin/guides Documentation output"
+    "render": ".Build/bin/guides Documentation output --theme=bootstrap"
   }
 }
