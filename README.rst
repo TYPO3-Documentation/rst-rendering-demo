@@ -17,8 +17,8 @@ Usage with ddev
 Usage without ddev
 ==================
 
-#.  Use PHP 8.0
-#.  Clone this repostory
+#.  Use PHP 8.2
+#.  Clone this repository
 #.  Run the following::
 
         composer install
