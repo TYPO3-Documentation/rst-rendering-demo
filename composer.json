@@ -1,25 +1,32 @@
 {
-  "name": "t3docs/rst-rendering-demo",
-  "license": "OPL-1.0",
-  "require": {
-    "php": "^8.0",
-    "phpdocumentor/guides-theme-bootstrap": "dev-main"
-  },
-  "require-dev": {
-    "ergebnis/composer-normalize": "^2.30",
-    "phpdocumentor/guides-cli": "dev-main@dev"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "config": {
-    "allow-plugins": {
-      "ergebnis/composer-normalize": true
+    "name": "t3docs/rst-rendering-demo",
+    "license": "OPL-1.0",
+    "require": {
+        "php": "^8.0",
+        "phpdocumentor/guides-theme-bootstrap": "dev-main",
+        "t3docs/example-theme": "dev-main"
     },
-    "bin-dir": ".Build/bin",
-    "sort-packages": true,
-    "vendor-dir": ".Build/vendor"
-  },
-  "scripts": {
-    "render": ".Build/bin/guides Documentation output --theme=bootstrap"
-  }
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.30",
+        "phpdocumentor/guides-cli": "dev-main@dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "bin-dir": ".Build/bin",
+        "sort-packages": true,
+        "vendor-dir": ".Build/vendor"
+    },
+    "scripts": {
+        "render": ".Build/bin/guides Documentation output --theme=bootstrap"
+    },
+    "repositories": [
+        {
+            "url": "./packages/*",
+            "type": "path"
+        }
+    ]
 }
