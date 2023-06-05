@@ -51,14 +51,14 @@
         :titlesonly:
         :glob:
 
-        Index
-        Introduction/Index
-        Installation/Index
-        Configuration/Index
-        Editor/Index
-        Templates/Index
-        Developer/Index
-        KnownProblems/Index
+        /Index
+        /Introduction/Index
+        /Installation/Index
+        /Configuration/Index
+        /Editor/Index
+        /Templates/Index
+        /Developer/Index
+        /KnownProblems/Index
 
 ..  documentblock::
     :identifier: footer

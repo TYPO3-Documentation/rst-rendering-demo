@@ -2,15 +2,15 @@
 
 .. _start:
 
-=========
-<project>
-=========
+===============
+Example Project
+===============
 
 :Extension key:
-    <extension-key>
+    example
 
 :Package name:
-    <package-name>
+    Example
 
 :Version:
     |release|
@@ -19,7 +19,7 @@
     en
 
 :Author:
-    <author>
+    Lina Wolf
 
 :License:
     This document is published under the
