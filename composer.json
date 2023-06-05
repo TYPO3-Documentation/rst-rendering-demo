@@ -21,7 +21,7 @@
         "vendor-dir": ".Build/vendor"
     },
     "scripts": {
-        "render": ".Build/bin/guides Documentation output --theme=bootstrap"
+        "render": ".Build/bin/guides Documentation output --theme=example"
     },
     "repositories": [
         {

@@ -21,7 +21,10 @@ class ExampleThemeExtension extends Extension implements PrependExtensionInterfa
     {
         $container->prependExtensionConfig('guides', [
             'themes' => [
-                'example' => dirname(__DIR__, 2) . '/resources/template'
+                'example' => [
+                    'extends' => 'bootstrap',
+                    'templates' => [dirname(__DIR__, 2) . '/resources/template'],
+                ],
             ],
         ]);
     }
