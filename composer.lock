@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bd4176bbed24f0dff92b345907535a8",
+    "content-hash": "ea792b937a9006167dfc828addfdc152",
     "packages": [
         {
             "name": "doctrine/deprecations",
@@ -564,12 +564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-core.git",
-                "reference": "ae1b638b8a01c7a5a73de98fb9e4b75ea2bab7f5"
+                "reference": "9df9c46420385604acc76881ca83ccb61dba719b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/ae1b638b8a01c7a5a73de98fb9e4b75ea2bab7f5",
-                "reference": "ae1b638b8a01c7a5a73de98fb9e4b75ea2bab7f5",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/9df9c46420385604acc76881ca83ccb61dba719b",
+                "reference": "9df9c46420385604acc76881ca83ccb61dba719b",
                 "shasum": ""
             },
             "require": {
@@ -605,7 +605,7 @@
                 "issues": "https://github.com/phpDocumentor/guides-core/issues",
                 "source": "https://github.com/phpDocumentor/guides-core/tree/main"
             },
-            "time": "2023-06-04T14:37:09+00:00"
+            "time": "2023-06-09T19:33:12+00:00"
         },
         {
             "name": "phpdocumentor/guides-restructured-text",
@@ -613,12 +613,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-restructured-text.git",
-                "reference": "cdd7f6bfec1310028a8c363569d5999b421271c2"
+                "reference": "0b4fb9f62493302693b684b8a186ab4ccd602b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/cdd7f6bfec1310028a8c363569d5999b421271c2",
-                "reference": "cdd7f6bfec1310028a8c363569d5999b421271c2",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/0b4fb9f62493302693b684b8a186ab4ccd602b28",
+                "reference": "0b4fb9f62493302693b684b8a186ab4ccd602b28",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +643,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-restructured-text/tree/main"
             },
-            "time": "2023-06-02T07:31:48+00:00"
+            "time": "2023-06-20T20:11:04+00:00"
         },
         {
             "name": "phpdocumentor/guides-theme-bootstrap",
@@ -651,12 +651,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-theme-bootstrap.git",
-                "reference": "a4f5b33d6869e4a2a5dabdb48a557b1e7a9308f9"
+                "reference": "9e8aad41759f0344dad0ce8ce44f7b1d0b6232b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-theme-bootstrap/zipball/a4f5b33d6869e4a2a5dabdb48a557b1e7a9308f9",
-                "reference": "a4f5b33d6869e4a2a5dabdb48a557b1e7a9308f9",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-theme-bootstrap/zipball/9e8aad41759f0344dad0ce8ce44f7b1d0b6232b6",
+                "reference": "9e8aad41759f0344dad0ce8ce44f7b1d0b6232b6",
                 "shasum": ""
             },
             "require": {
@@ -680,7 +680,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-theme-bootstrap/tree/main"
             },
-            "time": "2023-06-03T22:03:38+00:00"
+            "time": "2023-06-05T06:32:24+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -1465,6 +1465,42 @@
             }
         },
         {
+            "name": "t3docs/typo3-docs-theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-Documentation/typo3-docs-theme.git",
+                "reference": "b71cec72720d0f6259dae4388daa81c8e8195698"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-Documentation/typo3-docs-theme/zipball/b71cec72720d0f6259dae4388daa81c8e8195698",
+                "reference": "b71cec72720d0f6259dae4388daa81c8e8195698",
+                "shasum": ""
+            },
+            "require": {
+                "phpdocumentor/guides-theme-bootstrap": "dev-main"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "T3Docs\\Typo3DocsTheme\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A theme for use in the phpdocumentor",
+            "homepage": "https://www.phpdoc.org",
+            "support": {
+                "issues": "https://github.com/TYPO3-Documentation/typo3-docs-theme/issues",
+                "source": "https://github.com/TYPO3-Documentation/typo3-docs-theme/tree/main"
+            },
+            "time": "2023-06-27T15:10:21+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v2.15.5",
             "source": {
@@ -2234,12 +2270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-cli.git",
-                "reference": "e600e64b9edbd10ffa48e3163ad034cb0d8dafa7"
+                "reference": "306f1f3dc199be5459832e02ed64e5b1c2080ff1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-cli/zipball/e600e64b9edbd10ffa48e3163ad034cb0d8dafa7",
-                "reference": "e600e64b9edbd10ffa48e3163ad034cb0d8dafa7",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-cli/zipball/306f1f3dc199be5459832e02ed64e5b1c2080ff1",
+                "reference": "306f1f3dc199be5459832e02ed64e5b1c2080ff1",
                 "shasum": ""
             },
             "require": {
@@ -2276,7 +2312,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-cli/tree/main"
             },
-            "time": "2023-06-04T14:37:09+00:00"
+            "time": "2023-06-09T19:33:12+00:00"
         },
         {
             "name": "psr/container",
@@ -2556,16 +2592,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.24",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "4645e032d0963fb614969398ca28e47605b1a7da"
+                "reference": "f0410c30a6c86bbce6c719c2b5cfc343362b982e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/4645e032d0963fb614969398ca28e47605b1a7da",
-                "reference": "4645e032d0963fb614969398ca28e47605b1a7da",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/f0410c30a6c86bbce6c719c2b5cfc343362b982e",
+                "reference": "f0410c30a6c86bbce6c719c2b5cfc343362b982e",
                 "shasum": ""
             },
             "require": {
@@ -2625,7 +2661,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.24"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -2641,7 +2677,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-05T14:42:55+00:00"
+            "time": "2023-06-24T09:45:28+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2873,16 +2909,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.3.0",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "97b698e1d77d356304def77a8d0cd73090b359ea"
+                "reference": "edd36776956f2a6fcf577edb5b05eb0e3bdc52ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/97b698e1d77d356304def77a8d0cd73090b359ea",
-                "reference": "97b698e1d77d356304def77a8d0cd73090b359ea",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/edd36776956f2a6fcf577edb5b05eb0e3bdc52ae",
+                "reference": "edd36776956f2a6fcf577edb5b05eb0e3bdc52ae",
                 "shasum": ""
             },
             "require": {
@@ -2916,7 +2952,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v6.3.0"
+                "source": "https://github.com/symfony/filesystem/tree/v6.3.1"
             },
             "funding": [
                 {
@@ -2932,7 +2968,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-30T17:12:32+00:00"
+            "time": "2023-06-01T08:30:39+00:00"
         },
         {
             "name": "symfony/polyfill-php73",

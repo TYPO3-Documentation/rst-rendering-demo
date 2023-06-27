@@ -4,7 +4,8 @@
     "require": {
         "php": "^8.0",
         "phpdocumentor/guides-theme-bootstrap": "dev-main",
-        "t3docs/example-theme": "dev-main"
+        "t3docs/example-theme": "dev-main",
+        "t3docs/typo3-docs-theme": "dev-main"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.30",
@@ -21,7 +22,8 @@
         "vendor-dir": ".Build/vendor"
     },
     "scripts": {
-        "render": ".Build/bin/guides Documentation output --theme=example"
+        "render": ".Build/bin/guides Documentation output --theme=typo3docs",
+        "render-example": ".Build/bin/guides Documentation output --theme=example"
     },
     "repositories": [
         {
