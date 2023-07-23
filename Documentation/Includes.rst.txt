@@ -38,27 +38,18 @@
 
     ..  rubric:: Main Menu
 
-    .. toctree::
-        :titlesonly:
-        :glob:
+    .. menu::
 
+        */Index
         *
 
 ..  documentblock::
     :identifier: navbar
 
-    .. toctree::
-        :titlesonly:
-        :glob:
+    .. menu::
 
-        /Index
-        /Introduction/Index
-        /Installation/Index
-        /Configuration/Index
-        /Editor/Index
-        /Templates/Index
-        /Developer/Index
-        /KnownProblems/Index
+        */Index
+        *
 
 ..  documentblock::
     :identifier: footer
