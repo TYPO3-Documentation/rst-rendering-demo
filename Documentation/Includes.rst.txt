@@ -40,16 +40,16 @@
 
     .. menu::
 
-        */Index
-        *
+        /*/Index
+        /*
 
 ..  documentblock::
     :identifier: navbar
 
     .. menu::
 
-        */Index
-        *
+        /*/Index
+        /*
 
 ..  documentblock::
     :identifier: footer
