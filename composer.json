@@ -2,11 +2,12 @@
     "name": "t3docs/rst-rendering-demo",
     "license": "OPL-1.0",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
+        "phpdocumentor/guides-graphs": "dev-main",
         "phpdocumentor/guides-theme-bootstrap": "dev-main",
         "symfony/http-client": "^6.3",
         "t3docs/example-theme": "dev-main",
-        "t3docs/typo3-docs-theme": "dev-main"
+        "t3docs/typo3-docs-theme": "@dev"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.30",

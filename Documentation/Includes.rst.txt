@@ -38,15 +38,22 @@
 
     ..  rubric:: Main Menu
 
-    .. menu::
+    ..  menu::
+        :menu: mainmenu
 
-        /*/Index
-        /*
+        /Introduction/Index
+        /Installation/Index
+        /Configuration/Index
+        /Editor/Index
+        /Templates/Index
+        /Developer/Index
+        /KnownProblems/Index
 
 ..  documentblock::
     :identifier: navbar
 
     .. menu::
+        :menu: navbar
 
         /*/Index
         /*

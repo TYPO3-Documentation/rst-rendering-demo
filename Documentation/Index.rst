@@ -6,6 +6,13 @@
 Example Project
 ===============
 
+
+Testing separator
+
+-------
+
+Hey!
+
 :Extension key:
     example
 
@@ -29,11 +36,16 @@ Example Project
 :Rendered:
     |today|
 
-----
+
+
+------
+
 
 <abstract>
 
-----
+
+------
+
 
 **Table of Contents:**
 
