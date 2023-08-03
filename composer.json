@@ -6,7 +6,7 @@
         "phpdocumentor/guides-theme-bootstrap": "dev-main",
         "symfony/http-client": "^6.3",
         "t3docs/example-theme": "dev-main",
-        "t3docs/typo3-docs-theme": "dev-main"
+        "t3docs/typo3-docs-theme": "@dev"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.30",
