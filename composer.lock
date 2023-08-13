@@ -179,26 +179,26 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.12.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "c7f2872fb273bf493811473dafc88d60ae829f48"
+                "reference": "a6dfb1194a2946fcdc1f38219445234f65b35c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/c7f2872fb273bf493811473dafc88d60ae829f48",
-                "reference": "c7f2872fb273bf493811473dafc88d60ae829f48",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/a6dfb1194a2946fcdc1f38219445234f65b35c96",
+                "reference": "a6dfb1194a2946fcdc1f38219445234f65b35c96",
                 "shasum": ""
             },
             "require": {
                 "ext-fileinfo": "*",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.2",
                 "phpstan/phpstan": "^0.12.68",
-                "phpunit/phpunit": "^8.5.8 || ^9.3"
+                "phpunit/phpunit": "^8.5.8 || ^9.3 || ^10.0"
             },
             "type": "library",
             "autoload": {
@@ -219,7 +219,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.12.0"
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.13.0"
             },
             "funding": [
                 {
@@ -231,7 +231,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-03T07:14:11+00:00"
+            "time": "2023-08-05T12:09:49+00:00"
         },
         {
             "name": "league/tactician",
@@ -516,12 +516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-core.git",
-                "reference": "8149af5305ded9841d8e486e5ac01088b9f590d4"
+                "reference": "82921cc85515a807c292aeb437547b083c3d777d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/8149af5305ded9841d8e486e5ac01088b9f590d4",
-                "reference": "8149af5305ded9841d8e486e5ac01088b9f590d4",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/82921cc85515a807c292aeb437547b083c3d777d",
+                "reference": "82921cc85515a807c292aeb437547b083c3d777d",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +532,7 @@
                 "php": "^8.1",
                 "phpdocumentor/flyfinder": "^1.1",
                 "psr/event-dispatcher": "^1.0",
-                "symfony/http-client": "^5.4.25 || ^6.3",
+                "symfony/http-client": "^6.3.2",
                 "symfony/string": "^5.4 || ^6.3",
                 "symfony/translation-contracts": "^2.1 || ^3.0",
                 "twig/twig": "~2.15 || ^3.0",
@@ -558,7 +558,7 @@
                 "issues": "https://github.com/phpDocumentor/guides-core/issues",
                 "source": "https://github.com/phpDocumentor/guides-core/tree/main"
             },
-            "time": "2023-07-28T08:26:24+00:00"
+            "time": "2023-08-12T13:42:49+00:00"
         },
         {
             "name": "phpdocumentor/guides-restructured-text",
@@ -566,12 +566,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-restructured-text.git",
-                "reference": "b84e58a7eff442f4059160e9f0842f258c0472b6"
+                "reference": "77da04eeee2dd2cdc3e3a60608e923940761baa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/b84e58a7eff442f4059160e9f0842f258c0472b6",
-                "reference": "b84e58a7eff442f4059160e9f0842f258c0472b6",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/77da04eeee2dd2cdc3e3a60608e923940761baa9",
+                "reference": "77da04eeee2dd2cdc3e3a60608e923940761baa9",
                 "shasum": ""
             },
             "require": {
@@ -596,7 +596,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-restructured-text/tree/main"
             },
-            "time": "2023-07-22T05:19:54+00:00"
+            "time": "2023-08-12T11:30:27+00:00"
         },
         {
             "name": "phpdocumentor/guides-theme-bootstrap",
@@ -1683,38 +1683,28 @@
         {
             "name": "t3docs/typo3-docs-theme",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-Documentation/typo3-docs-theme.git",
-                "reference": "879104b2ec9f3111f8e94dba50ccf3e3f3560f7d"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-Documentation/typo3-docs-theme/zipball/879104b2ec9f3111f8e94dba50ccf3e3f3560f7d",
-                "reference": "879104b2ec9f3111f8e94dba50ccf3e3f3560f7d",
-                "shasum": ""
+                "type": "path",
+                "url": "./packages/typo3-docs-theme",
+                "reference": "879104b2ec9f3111f8e94dba50ccf3e3f3560f7d"
             },
             "require": {
                 "phpdocumentor/guides-theme-bootstrap": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "T3Docs\\Typo3DocsTheme\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A theme for use in the phpdocumentor",
-            "homepage": "https://www.phpdoc.org",
-            "support": {
-                "issues": "https://github.com/TYPO3-Documentation/typo3-docs-theme/issues",
-                "source": "https://github.com/TYPO3-Documentation/typo3-docs-theme/tree/main"
-            },
-            "time": "2023-07-31T07:03:50+00:00"
+            "homepage": "https://docs.typo3.org",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "twig/twig",
@@ -1849,16 +1839,16 @@
     "packages-dev": [
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.34.0",
+            "version": "2.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "39beb6b5f1e2d923c27fe30c48c3b88582081228"
+                "reference": "fe5fab007825cdb2640e27726c17dbcf513af0d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/39beb6b5f1e2d923c27fe30c48c3b88582081228",
-                "reference": "39beb6b5f1e2d923c27fe30c48c3b88582081228",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/fe5fab007825cdb2640e27726c17dbcf513af0d6",
+                "reference": "fe5fab007825cdb2640e27726c17dbcf513af0d6",
                 "shasum": ""
             },
             "require": {
@@ -1878,11 +1868,11 @@
                 "ergebnis/phpunit-slow-test-detector": "^2.3.0",
                 "fakerphp/faker": "^1.23.0",
                 "infection/infection": "~0.27.0",
-                "phpunit/phpunit": "^10.2.6",
+                "phpunit/phpunit": "^10.3.1",
                 "psalm/plugin-phpunit": "~0.18.4",
-                "rector/rector": "~0.17.7",
+                "rector/rector": "~0.17.12",
                 "symfony/filesystem": "^6.0.13",
-                "vimeo/psalm": "^5.13.1"
+                "vimeo/psalm": "^5.14.1"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1921,7 +1911,7 @@
                 "security": "https://github.com/ergebnis/composer-normalize/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/composer-normalize"
             },
-            "time": "2023-07-28T06:34:54+00:00"
+            "time": "2023-08-11T09:11:22+00:00"
         },
         {
             "name": "ergebnis/json",
