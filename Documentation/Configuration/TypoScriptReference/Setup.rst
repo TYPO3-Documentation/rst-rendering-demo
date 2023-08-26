@@ -1,5 +1,4 @@
 ..  include:: /Includes.rst.txt
-..  highlight:: typoscript
 ..  index::
     TypoScript; Setup
 ..  _configuration-typoscript-setup:

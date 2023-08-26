@@ -84,6 +84,94 @@
             "time": "2022-12-15T16:57:16+00:00"
         },
         {
+            "name": "league/csv",
+            "version": "9.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/csv.git",
+                "reference": "d24b0d484812313b07ab74b0fe4db9661606df6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/d24b0d484812313b07ab74b0fe4db9661606df6c",
+                "reference": "d24b0d484812313b07ab74b0fe4db9661606df6c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.1.2"
+            },
+            "require-dev": {
+                "doctrine/collections": "^2.1.3",
+                "ext-dom": "*",
+                "ext-xdebug": "*",
+                "friendsofphp/php-cs-fixer": "^v3.22.0",
+                "phpbench/phpbench": "^1.2.14",
+                "phpstan/phpstan": "^1.10.26",
+                "phpstan/phpstan-deprecation-rules": "^1.1.3",
+                "phpstan/phpstan-phpunit": "^1.3.13",
+                "phpstan/phpstan-strict-rules": "^1.5.1",
+                "phpunit/phpunit": "^10.3.1",
+                "symfony/var-dumper": "^6.3.3"
+            },
+            "suggest": {
+                "ext-dom": "Required to use the XMLConverter and the HTMLConverter classes",
+                "ext-iconv": "Needed to ease transcoding CSV using iconv stream filters"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "League\\Csv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://github.com/nyamsprod/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSV data manipulation made easy in PHP",
+            "homepage": "https://csv.thephpleague.com",
+            "keywords": [
+                "convert",
+                "csv",
+                "export",
+                "filter",
+                "import",
+                "read",
+                "transform",
+                "write"
+            ],
+            "support": {
+                "docs": "https://csv.thephpleague.com",
+                "issues": "https://github.com/thephpleague/csv/issues",
+                "rss": "https://github.com/thephpleague/csv/releases.atom",
+                "source": "https://github.com/thephpleague/csv"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/nyamsprod",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-08-04T15:12:48+00:00"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.1.10",
             "source": {
@@ -516,12 +604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-core.git",
-                "reference": "82921cc85515a807c292aeb437547b083c3d777d"
+                "reference": "6f2d41881ac8c5b56bfcf88df1594b536c5f6a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/82921cc85515a807c292aeb437547b083c3d777d",
-                "reference": "82921cc85515a807c292aeb437547b083c3d777d",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/6f2d41881ac8c5b56bfcf88df1594b536c5f6a85",
+                "reference": "6f2d41881ac8c5b56bfcf88df1594b536c5f6a85",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +646,7 @@
                 "issues": "https://github.com/phpDocumentor/guides-core/issues",
                 "source": "https://github.com/phpDocumentor/guides-core/tree/main"
             },
-            "time": "2023-08-12T13:42:49+00:00"
+            "time": "2023-08-22T13:20:20+00:00"
         },
         {
             "name": "phpdocumentor/guides-restructured-text",
@@ -566,16 +654,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-restructured-text.git",
-                "reference": "77da04eeee2dd2cdc3e3a60608e923940761baa9"
+                "reference": "0462f1fa08b401da319fd5d3ed640dc913b13d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/77da04eeee2dd2cdc3e3a60608e923940761baa9",
-                "reference": "77da04eeee2dd2cdc3e3a60608e923940761baa9",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/0462f1fa08b401da319fd5d3ed640dc913b13d19",
+                "reference": "0462f1fa08b401da319fd5d3ed640dc913b13d19",
                 "shasum": ""
             },
             "require": {
                 "doctrine/lexer": "^3.0",
+                "league/csv": "^9.10.0",
                 "php": "^8.1",
                 "phpdocumentor/guides": "self.version",
                 "webmozart/assert": "^1.11"
@@ -596,7 +685,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-restructured-text/tree/main"
             },
-            "time": "2023-08-12T11:30:27+00:00"
+            "time": "2023-08-25T09:02:16+00:00"
         },
         {
             "name": "phpdocumentor/guides-theme-bootstrap",
@@ -604,12 +693,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-theme-bootstrap.git",
-                "reference": "0e15d6559a69eec4b207b298ec098749a1a71a1e"
+                "reference": "269bb950f08231a7241eba1faaf204196f3d0c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-theme-bootstrap/zipball/0e15d6559a69eec4b207b298ec098749a1a71a1e",
-                "reference": "0e15d6559a69eec4b207b298ec098749a1a71a1e",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-theme-bootstrap/zipball/269bb950f08231a7241eba1faaf204196f3d0c0d",
+                "reference": "269bb950f08231a7241eba1faaf204196f3d0c0d",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +722,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-theme-bootstrap/tree/main"
             },
-            "time": "2023-07-22T05:19:54+00:00"
+            "time": "2023-08-21T19:15:27+00:00"
         },
         {
             "name": "psr/container",
@@ -1683,28 +1772,38 @@
         {
             "name": "t3docs/typo3-docs-theme",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-Documentation/typo3-docs-theme.git",
+                "reference": "61f305b2e09a8e293d393c2a3f96ed14387d4803"
+            },
             "dist": {
-                "type": "path",
-                "url": "./packages/typo3-docs-theme",
-                "reference": "879104b2ec9f3111f8e94dba50ccf3e3f3560f7d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-Documentation/typo3-docs-theme/zipball/61f305b2e09a8e293d393c2a3f96ed14387d4803",
+                "reference": "61f305b2e09a8e293d393c2a3f96ed14387d4803",
+                "shasum": ""
             },
             "require": {
                 "phpdocumentor/guides-theme-bootstrap": "dev-main"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "T3Docs\\Typo3DocsTheme\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A theme for use in the phpdocumentor",
             "homepage": "https://docs.typo3.org",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/TYPO3-Documentation/typo3-docs-theme/issues",
+                "source": "https://github.com/TYPO3-Documentation/typo3-docs-theme/tree/main"
+            },
+            "time": "2023-08-26T07:08:05+00:00"
         },
         {
             "name": "twig/twig",
@@ -2468,12 +2567,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-cli.git",
-                "reference": "17b11e7110f75e1123cd9f295ab055556acfb2a5"
+                "reference": "a53d34342f3a04846a4607766fee26bb983a1e08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-cli/zipball/17b11e7110f75e1123cd9f295ab055556acfb2a5",
-                "reference": "17b11e7110f75e1123cd9f295ab055556acfb2a5",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-cli/zipball/a53d34342f3a04846a4607766fee26bb983a1e08",
+                "reference": "a53d34342f3a04846a4607766fee26bb983a1e08",
                 "shasum": ""
             },
             "require": {
@@ -2510,7 +2609,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-cli/tree/main"
             },
-            "time": "2023-07-22T08:19:01+00:00"
+            "time": "2023-08-21T19:25:40+00:00"
         },
         {
             "name": "symfony/config",

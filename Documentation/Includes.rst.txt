@@ -31,8 +31,6 @@
 
 ..  By default, code blocks use PHP syntax highlighting
 
-..  highlight:: php
-
 ..  documentblock::
     :identifier: mainmenu
 
