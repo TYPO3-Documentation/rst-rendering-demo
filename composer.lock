@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fe96d7f058a93a1376403b0b6bf6d45",
+    "content-hash": "73cbb4a9a8820d66de4ef98cfea4fdba",
     "packages": [
         {
             "name": "doctrine/lexer",
@@ -604,12 +604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-core.git",
-                "reference": "6f2d41881ac8c5b56bfcf88df1594b536c5f6a85"
+                "reference": "2e251ee05c2ad66e6969355b55a02cfbc180b54d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/6f2d41881ac8c5b56bfcf88df1594b536c5f6a85",
-                "reference": "6f2d41881ac8c5b56bfcf88df1594b536c5f6a85",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-core/zipball/2e251ee05c2ad66e6969355b55a02cfbc180b54d",
+                "reference": "2e251ee05c2ad66e6969355b55a02cfbc180b54d",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +646,47 @@
                 "issues": "https://github.com/phpDocumentor/guides-core/issues",
                 "source": "https://github.com/phpDocumentor/guides-core/tree/main"
             },
-            "time": "2023-08-22T13:20:20+00:00"
+            "time": "2023-08-25T12:16:41+00:00"
+        },
+        {
+            "name": "phpdocumentor/guides-graphs",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/guides-graphs.git",
+                "reference": "efccd8c3682657826de9d17009207a4b12cbe7ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-graphs/zipball/efccd8c3682657826de9d17009207a4b12cbe7ee",
+                "reference": "efccd8c3682657826de9d17009207a4b12cbe7ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "phpdocumentor/guides": "self.version",
+                "phpdocumentor/guides-restructured-text": "self.version",
+                "symfony/process": "^5.4 || ^6.3",
+                "twig/twig": "~2.0 || ^3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Guides\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Provides Plantuml support for restructured text rendered by the phpDocumentor's Guides library.",
+            "homepage": "https://www.phpdoc.org",
+            "support": {
+                "issues": "https://github.com/phpDocumentor/guides-graphs/issues",
+                "source": "https://github.com/phpDocumentor/guides-graphs/tree/main"
+            },
+            "time": "2023-08-21T19:25:40+00:00"
         },
         {
             "name": "phpdocumentor/guides-restructured-text",
@@ -654,12 +694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/guides-restructured-text.git",
-                "reference": "0462f1fa08b401da319fd5d3ed640dc913b13d19"
+                "reference": "2d66666b8deb2985a3a36ce02ff2f80d3557cb9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/0462f1fa08b401da319fd5d3ed640dc913b13d19",
-                "reference": "0462f1fa08b401da319fd5d3ed640dc913b13d19",
+                "url": "https://api.github.com/repos/phpDocumentor/guides-restructured-text/zipball/2d66666b8deb2985a3a36ce02ff2f80d3557cb9b",
+                "reference": "2d66666b8deb2985a3a36ce02ff2f80d3557cb9b",
                 "shasum": ""
             },
             "require": {
@@ -685,7 +725,7 @@
             "support": {
                 "source": "https://github.com/phpDocumentor/guides-restructured-text/tree/main"
             },
-            "time": "2023-08-25T09:02:16+00:00"
+            "time": "2023-08-25T12:16:41+00:00"
         },
         {
             "name": "phpdocumentor/guides-theme-bootstrap",
@@ -1498,6 +1538,67 @@
             "time": "2022-11-03T14:55:06+00:00"
         },
         {
+            "name": "symfony/process",
+            "version": "v6.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "0b5c29118f2e980d455d2e34a5659f4579847c54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0b5c29118f2e980d455d2e34a5659f4579847c54",
+                "reference": "0b5c29118f2e980d455d2e34a5659f4579847c54",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Executes commands in sub-processes",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v6.3.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-08-07T10:39:22+00:00"
+        },
+        {
             "name": "symfony/service-contracts",
             "version": "v3.3.0",
             "source": {
@@ -1772,38 +1873,28 @@
         {
             "name": "t3docs/typo3-docs-theme",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-Documentation/typo3-docs-theme.git",
-                "reference": "61f305b2e09a8e293d393c2a3f96ed14387d4803"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-Documentation/typo3-docs-theme/zipball/61f305b2e09a8e293d393c2a3f96ed14387d4803",
-                "reference": "61f305b2e09a8e293d393c2a3f96ed14387d4803",
-                "shasum": ""
+                "type": "path",
+                "url": "./packages/typo3-docs-theme",
+                "reference": "34d0776ec8237409ea859086984a3504c18327f9"
             },
             "require": {
                 "phpdocumentor/guides-theme-bootstrap": "dev-main"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "T3Docs\\Typo3DocsTheme\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A theme for use in the phpdocumentor",
             "homepage": "https://docs.typo3.org",
-            "support": {
-                "issues": "https://github.com/TYPO3-Documentation/typo3-docs-theme/issues",
-                "source": "https://github.com/TYPO3-Documentation/typo3-docs-theme/tree/main"
-            },
-            "time": "2023-08-26T07:08:05+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "twig/twig",
@@ -2688,16 +2779,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898"
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/aa5d64ad3f63f2e48964fc81ee45cb318a723898",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898",
+                "url": "https://api.github.com/repos/symfony/console/zipball/eca495f2ee845130855ddf1cf18460c38966c8b6",
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6",
                 "shasum": ""
             },
             "require": {
@@ -2758,7 +2849,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.3.2"
+                "source": "https://github.com/symfony/console/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -2774,20 +2865,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-19T20:17:28+00:00"
+            "time": "2023-08-16T10:10:12+00:00"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "474cfbc46aba85a1ca11a27db684480d0db64ba7"
+                "reference": "68a5a9570806a087982f383f6109c5e925892a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/474cfbc46aba85a1ca11a27db684480d0db64ba7",
-                "reference": "474cfbc46aba85a1ca11a27db684480d0db64ba7",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/68a5a9570806a087982f383f6109c5e925892a49",
+                "reference": "68a5a9570806a087982f383f6109c5e925892a49",
                 "shasum": ""
             },
             "require": {
@@ -2839,7 +2930,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v6.3.2"
+                "source": "https://github.com/symfony/dependency-injection/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -2855,7 +2946,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-19T20:17:28+00:00"
+            "time": "2023-08-16T17:55:17+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -3078,16 +3169,16 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "3400949782c0cb5b3e73aa64cfd71dde000beccc"
+                "reference": "df1f8aac5751871b83d30bf3e2c355770f8f0691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/3400949782c0cb5b3e73aa64cfd71dde000beccc",
-                "reference": "3400949782c0cb5b3e73aa64cfd71dde000beccc",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/df1f8aac5751871b83d30bf3e2c355770f8f0691",
+                "reference": "df1f8aac5751871b83d30bf3e2c355770f8f0691",
                 "shasum": ""
             },
             "require": {
@@ -3132,7 +3223,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v6.3.2"
+                "source": "https://github.com/symfony/var-exporter/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -3148,12 +3239,13 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-26T17:39:03+00:00"
+            "time": "2023-08-16T18:14:47+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "phpdocumentor/guides-graphs": 20,
         "phpdocumentor/guides-theme-bootstrap": 20,
         "t3docs/example-theme": 20,
         "t3docs/typo3-docs-theme": 20,

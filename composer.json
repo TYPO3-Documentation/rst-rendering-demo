@@ -3,6 +3,7 @@
     "license": "OPL-1.0",
     "require": {
         "php": "^8.0",
+        "phpdocumentor/guides-graphs": "dev-main",
         "phpdocumentor/guides-theme-bootstrap": "dev-main",
         "symfony/http-client": "^6.3",
         "t3docs/example-theme": "dev-main",
